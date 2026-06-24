@@ -27,6 +27,7 @@ function App() {
           FRISCHILLER GHANA LTD
         </div>
         <ul className="nav-links">
+          <li><a href="https://docs.google.com/document/d/10iBta7zpghs_wWitezNWVZFULkDgBNuoYPaGbwxOIXw/edit?usp=sharing" target="_blank" rel="noreferrer" title="Francophone English Testing System">FETS</a></li>
           <li><a href="#courses">Courses</a></li>
           <li><a href="#translation">Translation</a></li>
           <li><a href="#recognition">Recognition & Jobs</a></li>

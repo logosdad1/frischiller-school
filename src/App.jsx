@@ -48,7 +48,7 @@ function App() {
               Learn German online with live lessons or get professional translation services for your business. We open doors to German-speaking countries and West Africa.
             </p>
             <div className="hero-actions" style={{ display: 'flex', gap: '1.5rem', flexWrap: 'wrap', marginTop: '1rem' }}>
-              <a href="https://wa.me/22890332836" className="btn btn-primary" target="_blank" rel="noreferrer" style={{ fontSize: '1.1rem', padding: '1rem 2rem' }}>
+              <a href="https://wa.me/233532954524" className="btn btn-primary" target="_blank" rel="noreferrer" style={{ fontSize: '1.1rem', padding: '1rem 2rem' }}>
                 <Phone size={20} /> Chat on WhatsApp
               </a>
               <a href="#courses" className="btn btn-outline" style={{ fontSize: '1.1rem', padding: '1rem 2rem' }}>
@@ -236,7 +236,7 @@ function App() {
           <div className="footer-col">
             <h4>Contact Information</h4>
             <p><MapPin size={18} /> Ho (Ghana)</p>
-            <p><Phone size={18} /> +233 532954524 (WhatsApp)</p>
+            <p><a href="https://wa.me/233532954524" target="_blank" rel="noreferrer" style={{ display: 'flex', alignItems: 'center', gap: '0.5rem' }}><Phone size={18} /> +233 532954524 (WhatsApp)</a></p>
             <p><Phone size={18} /> +233 0538389845 (WhatsApp)</p>
             <p><Mail size={18} /> frischiller85@gmail.com</p>
           </div>

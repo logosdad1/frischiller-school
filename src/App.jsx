@@ -1,7 +1,8 @@
-import React from 'react';
-import { BookOpen, CheckCircle, Globe, MapPin, Phone, Mail, GraduationCap, Building, Microscope, Users, Video } from 'lucide-react';
+import React, { useState } from 'react';
+import { BookOpen, CheckCircle, Globe, MapPin, Phone, Mail, GraduationCap, Building, Microscope, Users, Video, Menu, X } from 'lucide-react';
 
 function App() {
+  const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
   const courses = [
     { level: 'A1', duration: '4 months', sub1: 'A1.1 (2 months)', sub2: 'A1.2 (2 months)', books: 'Menschen A1.1 & A1.2 (4 books)' },
     { level: 'A2', duration: '4 months', sub1: 'A2.1 (2 months)', sub2: 'A2.2 (2 months)', books: 'Menschen A2.1 & A2.2 (4 books)' },
@@ -26,12 +27,15 @@ function App() {
           </div>
           FRISCHILLER GHANA LTD
         </div>
-        <ul className="nav-links">
-          <li><a href="https://docs.google.com/document/d/10iBta7zpghs_wWitezNWVZFULkDgBNuoYPaGbwxOIXw/edit?usp=sharing" target="_blank" rel="noreferrer" title="Francophone English Testing System">FETS</a></li>
-          <li><a href="#courses">Courses</a></li>
-          <li><a href="#translation">Translation</a></li>
-          <li><a href="#recognition">Recognition & Jobs</a></li>
-          <li><a href="#contact">Contact</a></li>
+        <div className="mobile-menu-toggle" onClick={() => setIsMobileMenuOpen(!isMobileMenuOpen)} style={{ cursor: 'pointer', display: 'none' }}>
+          {isMobileMenuOpen ? <X size={28} /> : <Menu size={28} />}
+        </div>
+        <ul className={`nav-links ${isMobileMenuOpen ? 'active' : ''}`}>
+          <li><a href="https://docs.google.com/document/d/10iBta7zpghs_wWitezNWVZFULkDgBNuoYPaGbwxOIXw/edit?usp=sharing" target="_blank" rel="noreferrer" title="Francophone English Testing System" onClick={() => setIsMobileMenuOpen(false)}>FETS</a></li>
+          <li><a href="#courses" onClick={() => setIsMobileMenuOpen(false)}>Courses</a></li>
+          <li><a href="#translation" onClick={() => setIsMobileMenuOpen(false)}>Translation</a></li>
+          <li><a href="#recognition" onClick={() => setIsMobileMenuOpen(false)}>Recognition & Jobs</a></li>
+          <li><a href="#contact" onClick={() => setIsMobileMenuOpen(false)}>Contact</a></li>
         </ul>
       </nav>
 

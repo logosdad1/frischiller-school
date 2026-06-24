@@ -90,19 +90,7 @@ function App() {
           </div>
         </div>
 
-        {/* Programme Image */}
-        <div style={{ marginTop: '3.5rem', marginLeft: '-5%', marginRight: '-5%' }}>
-          <img
-            src="/PROGRAMME new-01.jpg"
-            alt="Frischiller German Language Programme – Adult & SHS Program details"
-            style={{
-              width: '100%',
-              height: 'auto',
-              display: 'block',
-              boxShadow: '0 20px 60px rgba(0,0,0,0.22)',
-            }}
-          />
-        </div>
+
 
         <div style={{ textAlign: 'center', marginTop: '4rem' }}>
           <a href="https://zoom.us/" className="btn" target="_blank" rel="noreferrer" style={{ fontSize: '1.2rem', padding: '1rem 2.5rem' }}>

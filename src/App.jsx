@@ -232,7 +232,7 @@ function App() {
           <div className="footer-col">
             <h4>Registration Details</h4>
             <p><strong>Registry No:</strong> CS013780223</p>
-            <p><strong>Steuer Nr:</strong> C0062595172</p>
+            <p><strong>TIN No:</strong> C0062595172</p>
           </div>
         </div>
         <div className="footer-bottom">

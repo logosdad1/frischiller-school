@@ -31,7 +31,7 @@ function App() {
           {isMobileMenuOpen ? <X size={28} /> : <Menu size={28} />}
         </div>
         <ul className={`nav-links ${isMobileMenuOpen ? 'active' : ''}`}>
-          <li><a href="https://docs.google.com/document/d/10iBta7zpghs_wWitezNWVZFULkDgBNuoYPaGbwxOIXw/edit?usp=sharing" target="_blank" rel="noreferrer" title="Francophone English Testing System" onClick={() => setIsMobileMenuOpen(false)}>FETS</a></li>
+          <li><a href="/FETS.IMAGE.jpeg" target="_blank" rel="noreferrer" title="Francophone English Testing System" onClick={() => setIsMobileMenuOpen(false)}>FETS</a></li>
           <li><a href="#courses" onClick={() => setIsMobileMenuOpen(false)}>Courses</a></li>
           <li><a href="#translation" onClick={() => setIsMobileMenuOpen(false)}>Translation</a></li>
           <li><a href="#recognition" onClick={() => setIsMobileMenuOpen(false)}>Recognition & Jobs</a></li>
